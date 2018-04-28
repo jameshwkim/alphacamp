@@ -1,0 +1,32 @@
+.important {
+		font-size: 1.5em;
+		font-weight: bolder;
+		;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table {
+    width: 70%;
+}
+
+th {
+    height: 30px;
+}
+
+body {
+	background-color #ffff00;
+}
+
+body {
+    background-image: "images/ATS Logo.png";
+    background-repeat: no-repeat;
+    background-position: right top;
+}
