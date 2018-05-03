@@ -1,0 +1,31 @@
+.container:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.text {
+	position: relative;
+  width: 50px;
+  height: 20px;
+  float: right;
+  font-family: Arial;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+  width:30%;
+}
+
+.paddingtop {
+  padding-top:15px;
+}
+
+.marginright {
+  margin-right:100px;
+}
+
+.boxshadow {
+  box-shadow: 5px 10px;
+}

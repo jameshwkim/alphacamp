@@ -22,11 +22,8 @@ th {
 }
 
 body {
-	background-color #ffff00;
+	background-color: #003366;
+	color: #ffffff;
 }
 
-body {
-    background-image: "images/ATS Logo.png";
-    background-repeat: no-repeat;
-    background-position: right top;
-}
+

@@ -1,0 +1,42 @@
+.container {
+  background-color: #b0eece;
+}
+
+/* Clearfix */
+.container:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #0000ff;
+  float: left;
+}
+
+.box:nth-child(2n+1) {
+	background-color: #ff0000;
+}
+
+.floatright {
+	float: right;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.clearleft {
+	clear: left;
+}
+
+.marginleft {
+	margin-left:102px;
+}
+
+.hide {
+	display: none;
+}
