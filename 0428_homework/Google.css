@@ -12,10 +12,20 @@
   font-family: Arial;
 }
 
+.maindiv {
+  width: 100vw;
+  height: 100vh;
+}
+
+.innerdiv {
+  width: 100vw;
+  height: 33vh;
+}
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
-  width:30%;
+  width: 40%;
 }
 
 .paddingtop {

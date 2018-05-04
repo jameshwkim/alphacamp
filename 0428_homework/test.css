@@ -1,0 +1,16 @@
+.maindiv {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.innerdiv {
+  width: 100vw;
+  height: 33vh;
+  display: block;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
