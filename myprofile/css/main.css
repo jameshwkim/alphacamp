@@ -42,8 +42,7 @@ p, ul, ol, li {
 	margin-left: auto;
 	margin-right: auto;
 	width:90%;
-	padding-left: 64px;
-	padding-right: 64px;
+	height:100%;
 }
 
 .logo {
@@ -139,26 +138,16 @@ p, ul, ol, li {
 
 .about_me {
 	width:100%;
-	height:100%;
+	height:65%;
 }
 
-.container_about_me {
-	margin-left: auto;
-	margin-right: auto;
-	width:90%;
-	height:100%;
-	padding-left: 64px;
-	padding-right: 64px;
-
-}
-
-.container_about_me h2 {
+.container h2 {
 	font-size:35pt;
 	font-family: montserrat;
 	text-transform: uppercase;
 	
-	padding-top: 200px;
-	padding-bottom: 100px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	text-align: center;
 }
 
@@ -253,6 +242,42 @@ p, ul, ol, li {
 	text-decoration: none;
 }
 */
+
+/* My Service */
+.my_service {
+	width:100%;
+	height:55%;
+	background-color: #e5e5e5;
+}
+
+.service_items {
+	padding-top:10px;
+	float:left;	
+}
+
+.service-content {
+	float: left;
+	width: 25%;
+	margin-left: calc(25%/6);
+	margin-right: calc(25%/6);
+}
+
+.service-content h3 {
+	font-size:15pt;
+	color:#000;
+	padding-bottom: 10px;
+}
+
+.service-content p {
+	font-size:12pt;
+	color:#000;
+}
+
+.service-content i {
+	font-size:3em;
+	color:#000;
+	padding-bottom: 30px;
+}
 
 
 /* Basic elements 
