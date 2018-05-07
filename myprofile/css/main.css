@@ -279,5 +279,61 @@ p, ul, ol, li {
 	padding-bottom: 30px;
 }
 
+/* Resume */
+.resume {
+	width:100%;
+	height:75%;
+}
+
+.col-horizontal {
+	width: 100%;
+	height: 25%;
+	outline: 1px solid #25af5f;
+	outline-offset: -1px;
+	margin-top:15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-item {
+	width: 48%;
+	float: left;
+	margin-left: calc(4%/4);
+	margin-right: calc(4%/4);
+}
+
+.resume-subtitle {
+	font-family: Montserrat-Medium;
+	font-size:14pt;
+	padding: 10px 10px 10px 10px;
+}
+
+.experience-year {
+	width:15%;
+	color: #fff;
+	background-color: #000;
+	font-size: 12pt;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+}
+
+.resume-detail {
+	font-family: Montserrat;
+}
+
+.resume-detail h4 {
+	font-size: 12pt;
+	padding-bottom: 5px;
+}
+
+.resume-detail h6 {
+	font-size: 8pt;
+	padding-bottom: 10px;
+}
+
+.resume-detail p {
+	font-size: 11pt;
+}
 
 /* Basic elements 
