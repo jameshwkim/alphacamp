@@ -22,15 +22,28 @@ p, ul, ol, li {
 	clear: both;
 }
 
+.floatleft {
+	float: left;
+}
+
 /* Header */ 
 
 #header {
 	height: 40px;
-	
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	background-color: #2e2f30;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
 	padding-left: 64px;
 	padding-right: 64px;
-	
-	background-color: #2e2f30;
 }
 
 .logo {
@@ -56,7 +69,6 @@ p, ul, ol, li {
 	display: inline-block;
 	padding: 12px;
 	color: white;
-
 	text-decoration: none;
 }
 
@@ -87,12 +99,12 @@ p, ul, ol, li {
 
 .container_table_cell h2 {
 	text-align: center;
-	font-size: 24pt;
+	font-size: 35pt;
 	color: #fff;
 }
 
 .social_icons {
-	font-size:1em;
+	font-size:1.5em;
 	color:#fff;
 	margin-left: auto;
 	margin-right: auto;
@@ -119,4 +131,128 @@ p, ul, ol, li {
   color: #25af5f;
 }
 
-/* Basic elements */
+ /*About Me */
+.summary {
+	width: 100%;
+	height: 65%;
+}
+
+.about_me {
+	width:100%;
+	height:100%;
+}
+
+.container_about_me {
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+	height:100%;
+	padding-left: 64px;
+	padding-right: 64px;
+
+}
+
+.container_about_me h2 {
+	font-size:35pt;
+	font-family: montserrat;
+	text-transform: uppercase;
+	
+	padding-top: 200px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+
+.col-left {
+	float: left;
+	width: 45%;
+}
+
+.col-right {
+	float: right;
+	width: 45%;
+
+}
+
+.avatar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+}
+
+.personal-info {
+	text-align: left;
+}
+
+.personal-info h3 {
+	font-size: 15pt;
+	padding-bottom: 10px;
+
+}
+
+.personal-info p {
+	font-size: 12pt;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.skill {
+	width:100%;
+	font-size: 15pt;
+}
+
+.skill ul {
+	list-style-type: none;
+	padding-bottom:20px;
+}
+
+.skill li {
+	padding-bottom: 10px;
+}
+
+.button-group {
+	width: 100%;
+}
+
+.button {
+  border: 1px solid #25af5f;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #25af5f;
+  font-family: montserrat;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+	border: none;
+	background-color: #25af5f;
+	color: #fff;
+}
+
+/*.download_cv {
+	display: inline-block;
+	width:120px;
+	border: 1px solid #25af5f;
+	border-radius: 2px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.hire_me {
+	display: block;
+	width:120px;
+	border: 1px solid #25af5f;
+	border-radius: 2px;
+	text-align: center;
+	text-decoration: none;
+}
+*/
+
+
+/* Basic elements 
