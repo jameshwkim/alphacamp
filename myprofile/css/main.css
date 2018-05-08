@@ -33,7 +33,7 @@ p, ul, ol, li {
 	overflow: hidden;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 
 	background-color: #2e2f30;
 }
@@ -41,8 +41,8 @@ p, ul, ol, li {
 .container{
 	margin-left: auto;
 	margin-right: auto;
-	width:90%;
-	height:100%;
+	width:90vw;
+	height:100vw;
 }
 
 .logo {
@@ -78,8 +78,8 @@ p, ul, ol, li {
 /* Background */
 
 .home_bg {
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	background-image: url("images/bg_08.jpg");
 	background-position: center center;
 	background-size: cover;
@@ -93,7 +93,7 @@ p, ul, ol, li {
 .container_table_cell {
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 50vw;
 }
 
 .container_table_cell h2 {
@@ -107,7 +107,7 @@ p, ul, ol, li {
 	color:#fff;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 50vw;
 	padding-top: 5px;
 	text-align: center;
 	
@@ -133,12 +133,12 @@ p, ul, ol, li {
  /*About Me */
 .summary {
 	width: 100%;
-	height: 65%;
+	height: 32vh;
 }
 
 .about_me {
-	width:100%;
-	height:80%;
+	width:100vw;
+	height:75vh;
 }
 
 .container h2 {
@@ -154,12 +154,12 @@ p, ul, ol, li {
 
 .col-left {
 	float: left;
-	width: 45%;
+	width: 45vw;
 }
 
 .col-right {
 	float: right;
-	width: 45%;
+	width: 45vw;
 
 }
 
@@ -187,7 +187,7 @@ p, ul, ol, li {
 }
 
 .skill {
-	width:100%;
+	width:100vw;
 	font-size: 15pt;
 }
 
@@ -201,7 +201,7 @@ p, ul, ol, li {
 }
 
 .button-group {
-	width: 100%;
+	width: 100vw;
 }
 
 .button {
@@ -245,8 +245,8 @@ p, ul, ol, li {
 
 /* My Service */
 .my_service {
-	width:100%;
-	height:70%;
+	width:100vw;
+	height:58vh;
 	background-color: #e5e5e5;
 }
 
@@ -287,7 +287,7 @@ p, ul, ol, li {
 
 .col-horizontal {
 	width: 100%;
-	height: 30%;
+	height: 30vh;
 	outline: 1px solid #25af5f;
 	outline-offset: -1px;
 	margin-top:15px;
@@ -338,8 +338,8 @@ p, ul, ol, li {
 
 /* Quotes */
 .quotes {
-	width : 100%;
-	height: 45%;
+	width : 100vw;
+	height: 45vh;
 	background-image: url(images/road.jpg) ;
 	background-position: center center;
 	background-size: cover;
@@ -358,7 +358,7 @@ p, ul, ol, li {
 	width: 70%;
 	height: 50%;
 	text-align: center;
-	padding-top: 6.5%;
+	padding-top: 8.0%;
 }
 
 .quote-inner h3 {
