@@ -411,6 +411,39 @@ p, ul, ol, li {
 	margin-right: calc(25%/6);
 }
 
+/* GET IN TOUCH */
+.contact {
+	width: 100%;
+	height: 80vh;
+	display: block;
+}
+
+.contact-form {
+	width: 70%;
+	height: 55vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-input {
+	width: 50%;
+	float: left;
+}
+
+/* Footer */
+#footer {
+	background-color: #000;
+	width:100%;
+	height:25vh;
+}
+
+.footer-content {
+	text-align: center;
+	color: #fff;
+	padding-top: 5.5%;
+}
+
+
 
 
 
