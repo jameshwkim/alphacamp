@@ -264,7 +264,7 @@ p, ul, ol, li {
 }
 
 .experience-year {
-	width: 15%;
+	width: 20%;
 	text-align: center;
 	background-color: #000;
 	color: #fff;
@@ -292,7 +292,7 @@ p, ul, ol, li {
 /* ============================ Quote ============================ */
 
 .quotes {
-	height: 30%;
+	height: 40%;
 	background-color: rgba(0,0,0,0.1);
 }
 
