@@ -226,6 +226,7 @@ p, ul, ol, li {
 }
 
 .service-item {
+	display: flex;
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
@@ -261,6 +262,9 @@ p, ul, ol, li {
 	padding-bottom: 7%;
 }
 
+.resume-subtitle {
+	display: flex;
+}
 .col-horizontal {
 	width:90%;
 	margin-left: auto;
@@ -394,6 +398,7 @@ p, ul, ol, li {
 }
 
 .contact-name {
+	display: flex;
 	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
@@ -465,3 +470,91 @@ p, ul, ol, li {
 	margin-right: auto;
 	font-family: montserrat;
 }
+
+/* ======================== Tablet ========================== */
+
+@media screen and ( max-width: 850px ) { 
+
+.logo-image {
+	height: 40px;
+	padding-top: 10px;
+}
+
+.menu {
+	font-size: 0.8em;
+	padding-top: 18px;
+}
+
+
+.col-left {
+	width: 100%;
+}
+
+.col-right {
+	width: 100%;
+	font-family: montserrat;
+} 
+
+.summary {
+	flex-wrap: wrap;
+}
+
+.service-item {
+	flex-wrap: wrap;
+	width: 95%;
+}
+
+.service-content {
+	width: 100%;
+	padding: 1em 0 1em 0;
+	text-align: center;
+}
+
+.service-content p {
+	text-align: left;
+}
+
+.resume-subtitle {
+	flex-wrap: wrap;
+}
+
+.col-item {
+	padding: 0;
+}
+
+.resume-detail {
+	padding-top: 0;
+}
+
+.quote-inner a {
+	width: 80%;
+}
+
+.contact-name {
+	flex-wrap: wrap;
+	width: 80%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.contact-content {
+	width: 80%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 2%;
+
+}
+.form-input {
+	padding-right: 0;
+	padding-top: 3%;
+}
+
+.form-submit {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+} 
+
+
+
