@@ -103,7 +103,7 @@ p, ul, ol, li {
 }
 
 .menu a:hover {
-	color:#25af5f;
+	color: #25af5f;
 }
 
 /* ============================ BackGround ============================ */ 
@@ -141,6 +141,10 @@ p, ul, ol, li {
 	color: white;
 	text-decoration: none;
 	padding-left: 5px;
+}
+
+.social_icons i:hover {
+	color: #25af5f;
 }
 
 /* ============================ About Me ============================ */
@@ -206,6 +210,14 @@ p, ul, ol, li {
 	font-size: 12pt;
 }
 
+.button-group a:hover {
+	background-color: #25af5f;
+	border: 1px solid #25af5f;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12pt;
+
+}
 /* ============================ My Service ============================ */
 
 #service {
@@ -254,9 +266,13 @@ p, ul, ol, li {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-	padding: 10px 10px 10px 10px; 
+	padding: 10px 10px 20px 10px; 
 	font-family: montserrat;
-	border: 1px solid #25af5f;
+	border-bottom: 1px solid #25af5f;
+}
+
+.col-horizontal:nth-child(2n+1) {
+	border-bottom: none;
 }
 
 .col-item {
@@ -264,14 +280,16 @@ p, ul, ol, li {
 }
 
 .experience-year {
-	width: 20%;
+	width: 22.5%;
 	text-align: center;
 	background-color: #000;
 	color: #fff;
 	margin-top: 0.5%;
 	margin-bottom: 0.5%;
 	padding: 5px 5px 5px 5px;
+	border-radius: 6px;
 }
+
 .resume-detail {
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -294,6 +312,16 @@ p, ul, ol, li {
 .quotes {
 	height: 40%;
 	background-color: rgba(0,0,0,0.1);
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-image: url(images/road.jpg) ;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .quote-inner {
@@ -328,17 +356,13 @@ p, ul, ol, li {
 	font-size: 1.4em;
 	border: 2px solid #fff;
 	border-radius: 8px;
-	padding: 5px 0 5px 0;
+	padding: 10px 15px 10px 15px;
 }
 
-.overlay {
-	width: 100%;
-	height: 100%;
-	background-image: url(images/road.jpg) ;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+.quote-inner a:hover {
+	background-color: rgba(255,255,255,0.4);
+	color: #000;
+	border: 2px solid #000;
 }
 
 /* ============================ LATEST WORK ============================ */
@@ -352,12 +376,14 @@ p, ul, ol, li {
 	justify-content: space-around;
 }
 
-/* MUST ASK QUESTION!!!
-.col-work a:hover {
-	box-shadow: 5px 5px 5px #000;
-	width: 102%;
-	height: 102%;
-}*/
+.col-work img {
+	transition: 0.5s;
+}
+
+.col-work img:hover {
+	box-shadow: 0px 5px 3px rgba(0,0,0,0.3);
+	transform: scale(1.05,1.05);
+}
 
 /* ============================ CONTACT ============================ */
 
@@ -385,7 +411,7 @@ p, ul, ol, li {
 
 .form-input {
 	font-size: 0.9em;
-	width: 50%;
+	width: 100%;
 	padding-right:10px;
 }
 
@@ -405,12 +431,19 @@ p, ul, ol, li {
 }
 
 .form-submit input {
-	font-family: montserrat;
+	font-family: montserrat-bold;
 	font-size: 1.1em;
 	background-color: transparent;
 	border: 1px solid #000;
 	border-radius: 10px;
 	padding: 15px 50px 15px 50px;
+}
+
+.form-submit input:hover {
+	font-size: 1.2em;
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
 }
 
 .form-submit {
