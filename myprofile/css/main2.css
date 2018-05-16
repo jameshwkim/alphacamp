@@ -16,6 +16,13 @@ p, ul, ol, li {
 	padding: 0;
 }
 
+@media screen and ( min-width: 849px) {
+.menu-button, .menu-button-checkbox { 
+	display: none;
+}
+
+}
+
 /* ============================ Basic ============================ */
 
 .container h2 {
@@ -60,6 +67,7 @@ p, ul, ol, li {
 /* ============================ Header ============================ */ 
 
 #header {
+	position: fixed;
 	background-color: #2e2f30;
 	width: 100%;
 	height: 50px;
@@ -107,6 +115,7 @@ p, ul, ol, li {
 }
 
 /* ============================ BackGround ============================ */ 
+
 .home_bg {
 	width: 100%;
 	height: 100%;
@@ -426,6 +435,7 @@ p, ul, ol, li {
 	border-bottom: 1px solid #2e2f30;
 	background-color: transparent;
 	padding-top: 15px;
+	outline: none;
 }
 
 .form-input textarea {
@@ -433,6 +443,7 @@ p, ul, ol, li {
   border: none;
 	border-bottom: 1px solid #2e2f30;	
 	background-color: transparent;
+	outline: none;
 }
 
 .form-submit input {
@@ -479,12 +490,6 @@ p, ul, ol, li {
 	height: 40px;
 	padding-top: 10px;
 }
-
-.menu {
-	font-size: 0.8em;
-	padding-top: 18px;
-}
-
 
 .col-left {
 	width: 100%;
@@ -552,6 +557,70 @@ p, ul, ol, li {
 .form-submit {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.experience-year {
+	min-width: 100px;
+}
+
+
+/* ===== Hamburger ===== */
+
+.container {
+	width: auto;
+}
+
+.logo {
+	padding-left: 15px;
+}
+
+.menu-button {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 40px;
+	line-height: 40px;
+	color: white;
+	background: transparent;
+	padding: 0 15px;
+	padding-bottom: 5px;
+	border: 0;
+	outline: none;
+}
+
+.menu-button-checkbox { 
+	position: fixed; 
+	top: 0; 
+	right: 0; 
+	width: 55px; 
+	height: 50px; 
+} 
+
+.menu { 
+	font-size: 0.9em;
+	margin-top: 0; 
+	padding-left: 0; 
+	position: fixed; 
+	right: 0; 
+	top: 50px; 
+	width: 100px; 
+	height: 100%; 
+	background: #2e2f30;
+	justify-content: center;
+} 
+
+.menu ul {
+	flex-direction: column;
+}
+
+.menu li { 
+	border: 0; 
+	border-radius: 0; 
+	padding: 0.9em 0 0.9em 0;
+} 
+
+.menu a {
+	padding: 0;
 }
 
 } 
