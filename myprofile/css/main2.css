@@ -294,6 +294,7 @@ p, ul, ol, li {
 
 .experience-year {
 	width: 22.5%;
+	min-width: 100px;
 	text-align: center;
 	background-color: #000;
 	color: #fff;
@@ -574,10 +575,13 @@ p, ul, ol, li {
 	padding-left: 15px;
 }
 
-.menu-button {
+.checkbox {
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
+}
+
+.menu-button {
 	font-size: 40px;
 	line-height: 40px;
 	color: white;
@@ -589,15 +593,19 @@ p, ul, ol, li {
 }
 
 .menu-button-checkbox { 
-	position: fixed; 
+	position: absolute; 
 	top: 0; 
 	right: 0; 
-	width: 55px; 
+	width: 100px; 
 	height: 50px; 
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
 } 
 
 .menu { 
-	font-size: 0.9em;
+	opacity: 0;
+	font-size: 0.9em !impo;
 	margin-top: 0; 
 	padding-left: 0; 
 	position: fixed; 
@@ -622,6 +630,13 @@ p, ul, ol, li {
 .menu a {
 	padding: 0;
 }
+
+
+.menu-button-checkbox:checked ~ .menu {
+	opacity: 1;
+	transition: 500ms;
+}
+
 
 } 
 
